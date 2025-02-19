@@ -86,6 +86,11 @@ img {
     margin: 0 10px 0 0;
 }
 
+#links img {
+    width: 45px;
+    background: blue;
+}
+
 @media only screen and (max-width: 898px) {
     #head {
         display: flex;
@@ -100,9 +105,4 @@ img {
     #text {
         width: 100%;
     }
-}
-
-#links img {
-    width: 45px;
-    background: blue;
 }
