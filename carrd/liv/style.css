@@ -44,14 +44,12 @@ img {
 }
 
 #pfp {
-    order: 1;
     width: 40%;
     height: 25%;
     background: lightgreen;
 }
 
 #text {
-    order: 2;
     width: 50%;
 }
 
@@ -86,6 +84,22 @@ img {
 #links a {
     text-decoration: none;
     margin: 0 10px 0 0;
+}
+
+@media only screen and (max-width: 898px) {
+    #head {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 15px 0 30px;
+    }
+    #pfp {
+        margin: 0 0 20px;
+        width: 100%;
+    }
+    #text {
+        width: 100%;
+    }
 }
 
 #links img {
